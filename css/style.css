@@ -112,21 +112,14 @@ h1 {
 }
 
 #main {
-<<<<<<< HEAD
   /*float: left;*/
   display: flex;
-=======
-  float: left;
->>>>>>> 207d8062613f1d8a2c2fa42ac8b53282853c231c
   margin: 0 1%;
   padding: 0 1.5%;
   width: 60%;
   height: 600px;
   border: 1px solid #191919;
-<<<<<<< HEAD
   border-radius: 5px;
-=======
->>>>>>> 207d8062613f1d8a2c2fa42ac8b53282853c231c
 }
 
 #lirelasuite {
@@ -136,20 +129,13 @@ h1 {
 
 
 #right {
-<<<<<<< HEAD
   /*float: right;*/
   display: flex;
-=======
-  float: right;
->>>>>>> 207d8062613f1d8a2c2fa42ac8b53282853c231c
   margin: 0 1.5%;
   width: 30%;
   height: 999px;
   border: 1px solid #191919;
-<<<<<<< HEAD
   border-radius: 5px;
-=======
->>>>>>> 207d8062613f1d8a2c2fa42ac8b53282853c231c
 }
 
 footer {
@@ -158,10 +144,7 @@ footer {
 
 /* _ _ _ _ _ _ _ _ _READ MORE_ _ _ _ _ _ _ _ _*/
 /* _ _ _ _ _ _ _ _ _READ MORE_ _ _ _ _ _ _ _ _*/
-<<<<<<< HEAD
 /* _ _ https://codepen.io/Idered/pen/AeBgF _ _*/
-=======
->>>>>>> 207d8062613f1d8a2c2fa42ac8b53282853c231c
 /* _ _ _ _ _ _ _ _ _READ MORE_ _ _ _ _ _ _ _ _*/
 
 .read-more-state {
@@ -202,7 +185,6 @@ footer {
 
 /* Other style */
 /*body {
-<<<<<<< HEAD
 padding: 2%;
 }
 
@@ -212,15 +194,4 @@ background: #fff9c6;
 color: #c7b27e;
 border: 1px solid #fce29f;
 border-radius: .25em;
-=======
-  padding: 2%;
-}
-
-p {
-  padding: 2%;
-  background: #fff9c6;
-  color: #c7b27e;
-  border: 1px solid #fce29f;
-  border-radius: .25em;
->>>>>>> 207d8062613f1d8a2c2fa42ac8b53282853c231c
 }*/
