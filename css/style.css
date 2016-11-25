@@ -1,0 +1,226 @@
+/* _ _ _ _ _ _ _ _ _BASE COULEURS_ _ _ _ _ _ _ _ _*/
+/*https://coolors.co/f15025-ffffff-e6e8e6-ced0ce-191919*/
+/* _ _ _ _ _ _ _ _ _BASE COULEURS_ _ _ _ _ _ _ _ _*/
+
+body {
+  background-color: #E6E8E6;
+}
+
+/* _ _ _ _ _ _ _ _ _NAV STUFF_ _ _ _ _ _ _ _ _*/
+/* _ _ _ _ _ _ _ _ _NAV STUFF_ _ _ _ _ _ _ _ _*/
+/* _ _ _ _ _ _ _ _ _NAV STUFF_ _ _ _ _ _ _ _ _*/
+nav {
+  background-color: #191919;
+  border-bottom: 1px solid #191919;
+  border-top: 1px solid #191919;
+  margin:0px 0px 15px 0px;
+  position: relative;
+}
+
+nav > ul {
+  margin:0;
+  padding:0;
+  list-style:none;
+  position:relative;
+}
+
+nav > ul > li {
+  display: inline-block;
+  position: relative;
+  clear:both;
+  margin:0;
+  /*padding-right: 2em;
+  justify-content: space-between;*/
+  margin:0 0 0 1px;
+}
+
+nav > ul > li > a {
+  display: block;
+  position: relative;
+  margin:0;
+  padding-left: 12px;
+  padding-right: 12px;
+  line-height: 38px;
+}
+
+nav > ul > li > a:hover {
+  background-color:#E6E8E6;
+  color: #191919;
+}
+
+nav ul li a + * {
+  display: none;
+  background-color: #191919;
+  line-height: 38px;
+}
+
+nav ul li a:hover + * {
+  display: block;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 1em;
+  color: #E6E8E6;
+  background-color: #191919;
+  position: absolute;
+}
+
+nav ul li a + *:hover {
+  display: block;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 1em;
+  color: #E6E8E6;
+  background-color: #191919;
+  position: absolute;
+}
+nav > ul > li > ul {
+  padding:0;
+  list-style:none;
+  border: 1px solid #191919;
+}
+
+nav > ul > li > ul > li > a {
+  display: block;
+  margin:0;
+  margin-top: 1px;
+  padding-left: 12px;
+  padding-right: 12px;
+  line-height: 38px;
+}
+
+nav ul li ul li a:hover {
+  background-color:#E6E8E6;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 1.1em;
+  color: #84DD63;
+}
+
+/* _ _ _ _ _ _ _ _ _MAIN STUFF_ _ _ _ _ _ _ _ _*/
+/* _ _ _ _ _ _ _ _ _MAIN STUFF_ _ _ _ _ _ _ _ _*/
+/* _ _ _ _ _ _ _ _ _MAIN STUFF_ _ _ _ _ _ _ _ _*/
+
+h1 {
+  color: #191919;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#main {
+<<<<<<< HEAD
+  /*float: left;*/
+  display: flex;
+=======
+  float: left;
+>>>>>>> 207d8062613f1d8a2c2fa42ac8b53282853c231c
+  margin: 0 1%;
+  padding: 0 1.5%;
+  width: 60%;
+  height: 600px;
+  border: 1px solid #191919;
+<<<<<<< HEAD
+  border-radius: 5px;
+=======
+>>>>>>> 207d8062613f1d8a2c2fa42ac8b53282853c231c
+}
+
+#lirelasuite {
+  display:none;
+}
+
+
+
+#right {
+<<<<<<< HEAD
+  /*float: right;*/
+  display: flex;
+=======
+  float: right;
+>>>>>>> 207d8062613f1d8a2c2fa42ac8b53282853c231c
+  margin: 0 1.5%;
+  width: 30%;
+  height: 999px;
+  border: 1px solid #191919;
+<<<<<<< HEAD
+  border-radius: 5px;
+=======
+>>>>>>> 207d8062613f1d8a2c2fa42ac8b53282853c231c
+}
+
+footer {
+  clear: both;
+}
+
+/* _ _ _ _ _ _ _ _ _READ MORE_ _ _ _ _ _ _ _ _*/
+/* _ _ _ _ _ _ _ _ _READ MORE_ _ _ _ _ _ _ _ _*/
+<<<<<<< HEAD
+/* _ _ https://codepen.io/Idered/pen/AeBgF _ _*/
+=======
+>>>>>>> 207d8062613f1d8a2c2fa42ac8b53282853c231c
+/* _ _ _ _ _ _ _ _ _READ MORE_ _ _ _ _ _ _ _ _*/
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Show more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Show less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
+
+/* Other style */
+/*body {
+<<<<<<< HEAD
+padding: 2%;
+}
+
+p {
+padding: 2%;
+background: #fff9c6;
+color: #c7b27e;
+border: 1px solid #fce29f;
+border-radius: .25em;
+=======
+  padding: 2%;
+}
+
+p {
+  padding: 2%;
+  background: #fff9c6;
+  color: #c7b27e;
+  border: 1px solid #fce29f;
+  border-radius: .25em;
+>>>>>>> 207d8062613f1d8a2c2fa42ac8b53282853c231c
+}*/

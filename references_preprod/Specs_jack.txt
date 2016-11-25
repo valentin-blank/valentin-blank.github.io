@@ -1,0 +1,77 @@
+PROBLÈMES GIT :
+merge pull puis add commit 
+
+PROBLÈMES NAV:
+n/a
+
+À AMÉLIORER/CONTINUER :
+Choisir un peu mieux les couleurs
+section main aside à continuer
+header à continuer
+manque pages html et leurs liens
+faire du fucking responsive
+
+____ _ __ __ _ __ __ __ __ _ _ _ _ ___ ____ _ __ _____ __ _ _
+___ _ __ __ _ __ __ __ _résolutions___ ____ _ __ _____ __ _ _
+___ _ __ __ _ __ __ __ _résolutions___ ____ _ __ _____ __ _ _
+____ _ __ __ _ __ __ __ __ _ _ _ _ ___ ____ _ __ _____ __ _ _
+
+À continuer d'étudier..?
+@media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */ }
+@media (min-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+
+____ _ __ __ _ __ __ __ __ _ _ _ _ ___ ____ _ __ _____ __ _ _
+____ _ __ __ _ __ __ __ __OLD SPECS___ ____ _ __ _____ __ _ _
+____ _ __ __ _ __ __ __ __OLD SPECS___ ____ _ __ _____ __ _ _
+____ _ __ __ _ __ __ __ __ _ _ _ _ ___ ____ _ __ _____ __ _ _
+
+JACK.TF SPECS
+
+____ _ __ __ _ __ __ __ __ _ _ _ _ ___ ____ _ __ _____ __ _ _
+
+Logo + nom
+
+nav bar cliquable :
+
+QuiQuiQuoiDontOu?
+Évènements
+Trucs faits / Projets
+Wiki
+J'AI OUBLIÉ MERD***
+Nous contacter // twitr // WebIRC // Mailing-list
+
+
+
+____ _ __ __ _ __ __ __ __ _ _ _ _ ___ ____ _ __ _____ __ _ _
+
+
+wiki mailing-list irc twitter links git paste calendrier,
+Les projets
+Nous aider
+Dates
+Wiki
+Forums
+Webmail
+WebIRC
+Contact
+Calendrier à synchro
+About
+Events
+Projects
+Wiki
+Workshops
+Contacts
+Calendrier
+
+Qui sommes-nous ?
+Que faisons-nous ?
+Où le faisons-nous ?
+Notre agenda
+eMail: contact<at>tetalab.org
+Mail List
+Twitter : @tetalab
+IRC : chat.freenode.net#tetalab
