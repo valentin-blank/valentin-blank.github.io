@@ -106,18 +106,26 @@ a {
 /* _ _ _ _ _ _ _ _ _MAIN STUFF_ _ _ _ _ _ _ _ _*/
 /* _ _ _ _ _ _ _ _ _MAIN STUFF_ _ _ _ _ _ _ _ _*/
 
+main {
+  display: flex;
+}
+
+.article {
+flex-direction: column;
+}
+
 h1 {
   color: #191919;
   font-family: 'Open Sans', sans-serif;
 }
 
 #main {
-  /*float: left;*/
+  float: left;
   display: flex;
   margin: 0 1%;
   padding: 0 1.5%;
   width: 60%;
-  height: 600px;
+  height: auto;
   border: 1px solid #191919;
   border-radius: 5px;
 }
@@ -129,7 +137,7 @@ h1 {
 
 
 #right {
-  /*float: right;*/
+  float: right;
   display: flex;
   margin: 0 1.5%;
   width: 30%;
