@@ -2,19 +2,18 @@
 /*https://coolors.co/f15025-ffffff-e6e8e6-ced0ce-191919*/
 /* _ _ _ _ _ _ _ _ _BASE COULEURS_ _ _ _ _ _ _ _ _*/
 
-body {
-  background-color: #E6E8E6;
-}
+/* _ _ _ _ _ _ _ _ _NAV STUFF_ _ _ _ _ _ _ _ _*/
+/* _ _ _ _ _ _ _ _ _NAV STUFF_ _ _ _ _ _ _ _ _*/
+/* _ _ _ _ _ _ _ _ _NAV STUFF_ _ _ _ _ _ _ _ _*/
 
-/* _ _ _ _ _ _ _ _ _NAV STUFF_ _ _ _ _ _ _ _ _*/
-/* _ _ _ _ _ _ _ _ _NAV STUFF_ _ _ _ _ _ _ _ _*/
-/* _ _ _ _ _ _ _ _ _NAV STUFF_ _ _ _ _ _ _ _ _*/
 nav {
   background-color: #191919;
   border-bottom: 1px solid #191919;
   border-top: 1px solid #191919;
   margin:0px 0px 15px 0px;
   position: relative;
+  order: -1;
+
 }
 
 nav > ul {
@@ -106,12 +105,10 @@ a {
 /* _ _ _ _ _ _ _ _ _MAIN STUFF_ _ _ _ _ _ _ _ _*/
 /* _ _ _ _ _ _ _ _ _MAIN STUFF_ _ _ _ _ _ _ _ _*/
 
-main {
+body {
+  background-color: #E6E8E6;
+  flex-wrap: wrap;
   display: flex;
-}
-
-.article {
-flex-direction: column;
 }
 
 h1 {
@@ -120,34 +117,38 @@ h1 {
 }
 
 #main {
-  float: left;
-  display: flex;
-  margin: 0 1%;
-  padding: 0 1.5%;
+  order: 1;
+  /*flex-wrap: wrap;
+  display:flex;*/
   width: 60%;
-  height: auto;
+}
+
+.article {
+  flex-direction: column;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
   border: 1px solid #191919;
   border-radius: 5px;
+  /*height: auto;*/
 }
 
 #lirelasuite {
   display:none;
 }
 
-
-
 #right {
-  float: right;
-  display: flex;
+  order: 2;
   margin: 0 1.5%;
   width: 30%;
-  height: 999px;
+  height: auto;
   border: 1px solid #191919;
   border-radius: 5px;
 }
 
 footer {
-  clear: both;
+  align-self: flex-end;
+  height: 30px;
+  background-color: black;
 }
 
 /* _ _ _ _ _ _ _ _ _READ MORE_ _ _ _ _ _ _ _ _*/
@@ -192,9 +193,7 @@ footer {
 }
 
 /* Other style */
-/*body {
-padding: 2%;
-}
+/*
 
 p {
 padding: 2%;
